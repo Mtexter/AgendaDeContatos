@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+    box-sizing: border-box;
+
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+:is(button, a) {
+    cursor: pointer;
+}
+
+.btVerde {
+    border: none;
+    border-radius: 8px;
+
+    font-weight: 700;
+    background: #04C45C;
+}
+
+.btVermelho {
+    border: none;
+    border-radius: 8px;
+
+    font-weight: 700;
+    background: #FB0615A6;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+
+    width: 475px;
+    height: 51px;
+    margin: 16px 0;
+    padding-left: 16px;
+
+    border: 1px solid #E8E8E8;
+    background: #FDFAFA;
+}

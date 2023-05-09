@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../CSS/global.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <title>\home</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            KONTACTS
+        </h1>
+        <button>
+            <img src="../../assets/logout.png" alt="simbolo logout">
+        </button>
+    </header>
+    <main>
+        <button class="btVerde">
+            Adicionar
+        </button>
+        <div class="tabela">
+            <div class="topoDaTabela">
+                <div class="nome">
+                    <p>
+                        Nome
+                    </p>
+                </div>
+
+                <div class="e-mail">
+                    <p>
+                        Email
+                    </p>
+                </div>
+
+                <div class="telefone">
+                    <p>
+                        Telefone
+                    </p>
+                </div>
+            </div>
+            <div class="contatos">
+
+                <div class="contato01">
+                    <div class="nome">
+                        <p>
+                            Claudia M. Souza
+                        </p>
+                    </div>
+
+                    <div class="e-mail">
+                        <p>
+                            claudia@teste.com.br
+                        </p>
+                    </div>
+                    <div class="telefone">
+                        (99)99999-9999
+                    </div>
+                    <button>
+                        <img src="../../assets/Lixeira.png" alt="">
+                    </button>
+                </div>
+
+                <div class="contato02">
+                    <div class="nome">
+                        <p>
+                            João Santos
+                        </p>
+                    </div>
+
+                    <div class="e-mail">
+                        <p>
+                            joao@teste.com.br
+                        </p>
+                    </div>
+                    <div class="telefone">
+                        (99)99999-9999
+                    </div>
+                    <button>
+                        <img src="../../assets/Lixeira.png" alt="">
+                    </button>
+                </div>
+
+                <div class="contato03">
+                    <div class="nome">
+                        <p>
+                            Pedro Henrique
+                        </p>
+                    </div>
+
+                    <div class="e-mail">
+                        <p>
+                            pedro.henrique@teste.com.br
+                        </p>
+                    </div>
+                    <div class="telefone">
+                        (99)99999-9999
+                    </div>
+                    <button>
+                        <img src="../../assets/Lixeira.png" alt="">
+                    </button>
+                </div>
+
+                <div class="contato04">
+                    <div class="nome">
+                        <p>
+                            Marina Tavares
+                        </p>
+                    </div>
+
+                    <div class="e-mail">
+                        <p>
+                            marina_tavares@teste.com.br
+                        </p>
+                    </div>
+                    <div class="telefone">
+                        (99)99999-9999
+                    </div>
+                    <button>
+                        <img src="../../assets/Lixeira.png" alt="">
+                    </button>
+                </div>
+
+                <div class="contato05">
+                    <div class="nome">
+                        <p>
+                            Daniel Lopes
+                        </p>
+                    </div>
+
+                    <div class="e-mail">
+                        <p>
+                            daniel.lopes@cubos.academy
+                        </p>
+                    </div>
+                    <div class="telefone">
+                        (99)99999-9999
+                    </div>
+                    <button>
+                        <img src="../../assets/Lixeira.png" alt="">
+                    </button>
+                </div>
+
+                <div class="contato06">
+                    <div class="nome">
+                        <p>
+                            Guido Cerqueira
+                        </p>
+                    </div>
+
+                    <div class="e-mail">
+                        <p>
+                            guido.cerqueira@cubos.academy
+                        </p>
+                    </div>
+                    <div class="telefone">
+                        (99)99999-9999
+                    </div>
+                    <button>
+                        <img src="../../assets/Lixeira.png" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class=" paiDoModal">
+            <div class="modal-excluir oculto">
+                <div class=" modal-header oculto">
+                    <button class="fechar">
+                        <img src="../../assets/X pra sair.png" alt="icone-sair">
+                    </button>
+                    <h5 class="modal-title">
+                        Confirma a exclusão?
+                    </h5>
+                    <p>
+                        Deseja excluir o contato?
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btVerde">EXCLUIR</button>
+                    <button class="btVermelho">CANCELAR</button>
+                </div>
+            </div>
+
+            <div class="modal-adicionar oculto">
+                <div class="modal-header">
+                    <button class="fechar">
+                        <img src="../../assets/X pra sair.png" alt="icone-sair">
+                    </button>
+                    <h5 class="modal-title">Novo contato</h5>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div>
+                            <input type="text" class="form-control" id="nome" placeholder="Nome">
+                        </div>
+                        <div>
+                            <input type="email" class="form-control" id="email" placeholder="E-mail">
+                        </div>
+                        <div>
+                            <input type="tel" class="form-control" id="telefone" placeholder="Telefone">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btVerde">ADICIONAR</button>
+                    <button class="btVermelho">LIMPAR</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
