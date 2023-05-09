@@ -6,7 +6,7 @@ Este é um prototipo basico de agenda de contatos onde é possivel adicionar nov
 Aqui estamos no login onde entrando com seus dados pode ser possivel entrar na agenda
 
 
-<![alt](assets%20readme/img%20projeto%201%20login.png)
+![alt](assets%20readme/img%20projeto%201%20login.png)
 
 
 Caso não seja cadastrado, aqui pode ser feito o cadastro
@@ -24,7 +24,7 @@ Feito o login, esta é a tela inicial da agenda onde apareceram seus contatos re
 Caso queira adicionar um novo contato, ao clicar o botão "adicionar" uma janela abre para receber os dados do novo contato
 
 
-<![alt](assets%20readme/img%20projeto%204%20modal%20add.png)>
+![alt](assets%20readme/img%20projeto%204%20modal%20add.png)
 
 
 Caso queira excluir um contato, ao clicar o icone de lixeira em frente a um contato, sera aberta um janela onde vc deve confirmar a exclusão
