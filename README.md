@@ -1,5 +1,7 @@
 
-Este é um prototipo basico de agenda de contatos onde é possivel adicionar novos contatos e também se necessarios excluir
+Este é um prototipo basico de agenda de contatos onde é possivel adicionar novos contatos e também se necessarios excluir <br>
+Todo o projeto até o momento usar HTML/CSS/JavaScript
+
 
 
 
