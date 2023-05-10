@@ -29,7 +29,7 @@ Caso queira adicionar um novo contato, ao clicar o botão "adicionar" uma janela
 ![alt](assets%20readme/img%20projeto%204%20modal%20add.png)
 
 
-Caso queira excluir um contato, ao clicar o icone de lixeira em frente a um contato, sera aberta um janela onde vc deve confirmar a exclusão
+Caso queira excluir um contato, ao clicar o icone de lixeira em frente a um contato, sera aberta um janela onde o usuário deve confirmar a exclusão
 
 
 ![alt](assets%20readme/img%20projeto%205%20modal%20exc.png)
